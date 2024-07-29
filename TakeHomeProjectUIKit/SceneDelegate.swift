@@ -21,11 +21,44 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         window?.windowScene = windowScene
         
+        /// Create Tabbar Controller
+        let tabbar = createTabbar()
+        
         /// set view controller
-        window?.rootViewController = ViewController()
+        window?.rootViewController = tabbar
         
         /// set visible
         window?.makeKeyAndVisible()
+    }
+    
+    /// Create Navigation Controller
+    func createSearchNavigationController() -> UINavigationController {
+        let searchViewController = SearchViewController()
+        searchViewController.title = "Search"
+        searchViewController.tabBarItem = UITabBarItem(tabBarSystemItem: .search, tag: 0) // UI TabItem with image is .search
+        
+        return UINavigationController(rootViewController: searchViewController)
+    }
+    
+    /// Create Navigation Controller
+    func createFavouritesNavigationController() -> UINavigationController {
+        let favouritesListViewController = FavouritesListViewController()
+        favouritesListViewController.title = "Favourites"
+        favouritesListViewController.tabBarItem = UITabBarItem(tabBarSystemItem: .favorites, tag: 1) // UI TabItem with image is .favourites
+        
+        return UINavigationController(rootViewController: favouritesListViewController)
+    }
+    
+    /// Create Tabbar Controller
+    func createTabbar() -> UITabBarController {
+        let tabbar = UITabBarController()
+        UITabBar.appearance().tintColor = .systemGreen
+        tabbar.viewControllers = [
+            createSearchNavigationController(),
+            createFavouritesNavigationController()
+        ]
+        
+        return tabbar
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
