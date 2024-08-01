@@ -29,6 +29,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         /// set visible
         window?.makeKeyAndVisible()
+        
+        configurNavigationBar()
     }
     
     /// Create Navigation Controller
@@ -59,6 +61,11 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         ]
         
         return tabbar
+    }
+    
+    /// Configure Navigation Bar
+    func configurNavigationBar() {
+        UINavigationBar.appearance().tintColor = .systemGreen // appearance is all of our UI navigaionBar
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
