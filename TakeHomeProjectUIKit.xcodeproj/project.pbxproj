@@ -60,12 +60,12 @@
 			children = (
 				46B804E62C57D4D30091020E /* AppDelegate.swift */,
 				46B804D02C57ADB00091020E /* SceneDelegate.swift */,
+				46B804EC2C58FBDA0091020E /* GFTextField.swift */,
 				46B804EA2C58F4BF0091020E /* GFButton.swift */,
 				46B804E42C57D21F0091020E /* FavouritesListViewController.swift */,
 				46B804E22C57D1E30091020E /* SearchViewController.swift */,
 				46B804D72C57ADB10091020E /* Assets.xcassets */,
 				46B804DC2C57ADB10091020E /* Info.plist */,
-				46B804EC2C58FBDA0091020E /* GFTextField.swift */,
 			);
 			path = TakeHomeProjectUIKit;
 			sourceTree = "<group>";
