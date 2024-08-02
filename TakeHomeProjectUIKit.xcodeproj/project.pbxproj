@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		466B56252C5D197B008A62A1 /* GFTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466B56242C5D197B008A62A1 /* GFTitleLabel.swift */; };
+		466B56272C5D1C44008A62A1 /* GFBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466B56262C5D1C44008A62A1 /* GFBodyLabel.swift */; };
+		466B56292C5D1D93008A62A1 /* GFAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466B56282C5D1D93008A62A1 /* GFAlertViewController.swift */; };
+		466B562B2C5D26E9008A62A1 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466B562A2C5D26E9008A62A1 /* UIViewController+Extension.swift */; };
 		46B804D12C57ADB00091020E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B804D02C57ADB00091020E /* SceneDelegate.swift */; };
 		46B804D82C57ADB10091020E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46B804D72C57ADB10091020E /* Assets.xcassets */; };
 		46B804E32C57D1E30091020E /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B804E22C57D1E30091020E /* SearchViewController.swift */; };
@@ -18,6 +22,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		466B56242C5D197B008A62A1 /* GFTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTitleLabel.swift; sourceTree = "<group>"; };
+		466B56262C5D1C44008A62A1 /* GFBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFBodyLabel.swift; sourceTree = "<group>"; };
+		466B56282C5D1D93008A62A1 /* GFAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertViewController.swift; sourceTree = "<group>"; };
+		466B562A2C5D26E9008A62A1 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		46B804CB2C57ADB00091020E /* TakeHomeProjectUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TakeHomeProjectUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46B804D02C57ADB00091020E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		46B804D72C57ADB10091020E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -63,12 +71,16 @@
 				46B804E62C57D4D30091020E /* AppDelegate.swift */,
 				46B804D02C57ADB00091020E /* SceneDelegate.swift */,
 				46B804EC2C58FBDA0091020E /* GFTextField.swift */,
+				466B56242C5D197B008A62A1 /* GFTitleLabel.swift */,
+				466B56262C5D1C44008A62A1 /* GFBodyLabel.swift */,
+				466B56282C5D1D93008A62A1 /* GFAlertViewController.swift */,
 				46B804EA2C58F4BF0091020E /* GFButton.swift */,
 				46B804F02C5BE1BD0091020E /* FollowerListViewController.swift */,
 				46B804E42C57D21F0091020E /* FavouritesListViewController.swift */,
 				46B804E22C57D1E30091020E /* SearchViewController.swift */,
 				46B804D72C57ADB10091020E /* Assets.xcassets */,
 				46B804DC2C57ADB10091020E /* Info.plist */,
+				466B562A2C5D26E9008A62A1 /* UIViewController+Extension.swift */,
 			);
 			path = TakeHomeProjectUIKit;
 			sourceTree = "<group>";
@@ -142,10 +154,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				466B56292C5D1D93008A62A1 /* GFAlertViewController.swift in Sources */,
+				466B562B2C5D26E9008A62A1 /* UIViewController+Extension.swift in Sources */,
 				46B804ED2C58FBDA0091020E /* GFTextField.swift in Sources */,
 				46B804EB2C58F4BF0091020E /* GFButton.swift in Sources */,
 				46B804E72C57D4D30091020E /* AppDelegate.swift in Sources */,
 				46B804F12C5BE1BD0091020E /* FollowerListViewController.swift in Sources */,
+				466B56272C5D1C44008A62A1 /* GFBodyLabel.swift in Sources */,
+				466B56252C5D197B008A62A1 /* GFTitleLabel.swift in Sources */,
 				46B804E52C57D21F0091020E /* FavouritesListViewController.swift in Sources */,
 				46B804E32C57D1E30091020E /* SearchViewController.swift in Sources */,
 				46B804D12C57ADB00091020E /* SceneDelegate.swift in Sources */,
