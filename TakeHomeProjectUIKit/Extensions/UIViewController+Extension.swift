@@ -12,6 +12,7 @@ fileprivate var containerView: UIView!
 
 extension UIViewController {
    
+    /// Present Alert View Controller
     func presentGFAlertOnMainThread(title: String, message: String, buttonTitle: String) {
         DispatchQueue.main.async {
             let alertViewController = GFAlertViewController(title: title, message: message, buttonTitle: buttonTitle)
