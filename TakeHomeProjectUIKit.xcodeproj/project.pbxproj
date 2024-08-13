@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		465EBE8B2C6B97F300A97E77 /* GFUserInfoHeaderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465EBE8A2C6B97F300A97E77 /* GFUserInfoHeaderVC.swift */; };
+		465EBE8D2C6B984300A97E77 /* GFSecondaryTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465EBE8C2C6B984300A97E77 /* GFSecondaryTitleLabel.swift */; };
 		466B56252C5D197B008A62A1 /* GFTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466B56242C5D197B008A62A1 /* GFTitleLabel.swift */; };
 		466B56272C5D1C44008A62A1 /* GFBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466B56262C5D1C44008A62A1 /* GFBodyLabel.swift */; };
 		466B56292C5D1D93008A62A1 /* GFAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466B56282C5D1D93008A62A1 /* GFAlertViewController.swift */; };
@@ -31,6 +33,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		465EBE8A2C6B97F300A97E77 /* GFUserInfoHeaderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFUserInfoHeaderVC.swift; sourceTree = "<group>"; };
+		465EBE8C2C6B984300A97E77 /* GFSecondaryTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFSecondaryTitleLabel.swift; sourceTree = "<group>"; };
 		466B56242C5D197B008A62A1 /* GFTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTitleLabel.swift; sourceTree = "<group>"; };
 		466B56262C5D1C44008A62A1 /* GFBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFBodyLabel.swift; sourceTree = "<group>"; };
 		466B56282C5D1D93008A62A1 /* GFAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertViewController.swift; sourceTree = "<group>"; };
@@ -123,6 +127,7 @@
 			children = (
 				466B56242C5D197B008A62A1 /* GFTitleLabel.swift */,
 				466B56262C5D1C44008A62A1 /* GFBodyLabel.swift */,
+				465EBE8C2C6B984300A97E77 /* GFSecondaryTitleLabel.swift */,
 			);
 			path = Labels;
 			sourceTree = "<group>";
@@ -162,6 +167,7 @@
 		46749F832C671A6100A8A4BD /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				465EBE8A2C6B97F300A97E77 /* GFUserInfoHeaderVC.swift */,
 				466B56282C5D1D93008A62A1 /* GFAlertViewController.swift */,
 			);
 			path = ViewControllers;
@@ -304,9 +310,11 @@
 				46B804F12C5BE1BD0091020E /* FollowerListViewController.swift in Sources */,
 				46AA926D2C622765003F9CEB /* FollowerCell.swift in Sources */,
 				46AA926A2C620382003F9CEB /* GFError.swift in Sources */,
+				465EBE8B2C6B97F300A97E77 /* GFUserInfoHeaderVC.swift in Sources */,
 				466B56272C5D1C44008A62A1 /* GFBodyLabel.swift in Sources */,
 				466B56352C5E3F2E008A62A1 /* Follower.swift in Sources */,
 				466B56252C5D197B008A62A1 /* GFTitleLabel.swift in Sources */,
+				465EBE8D2C6B984300A97E77 /* GFSecondaryTitleLabel.swift in Sources */,
 				46749F852C671AE100A8A4BD /* GFEmptyStateView.swift in Sources */,
 				46AA92612C60A609003F9CEB /* NetworkManager.swift in Sources */,
 				46B804E52C57D21F0091020E /* FavouritesListViewController.swift in Sources */,
